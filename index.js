@@ -17,7 +17,7 @@ const generatePromises = function* () {
 };
 
 const bar = new ProgressBar({
-  schema: 'Günler sorgulanıyor(:current/:total) :bar (kalan süre: :elapsed)',
+  schema: 'Günler sorgulanıyor(:current/:total) :bar (kalan süre: :eta sn)',
   total: DAYS+1
 });
 const table = new Table({ head: ['', 'Ankara => Kars', 'Kars => Ankara']});
