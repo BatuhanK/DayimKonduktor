@@ -16,6 +16,6 @@ DAYS=30 npm start
 ***
 
 
-> not: sadece bu kodu calistirabilecek insanlarin dayisi konduktor olabilir, lutfen web sitesi - mobil uygulama vs. haline getirmeyin.
+> not: dilerseniz [su adresten](http://karsrail.batuhan.org) 1-2 dakikada bir guncellenen halini takip edebilirsiniz
 
 > unutmayin ki herkesin dayisinin konduktor oldugu bir dunyada kimse bilet bulamaz...
