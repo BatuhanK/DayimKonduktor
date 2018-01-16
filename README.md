@@ -1,5 +1,6 @@
 # DayimKonduktor
-Dogu ekspresinde yatakli vagon icin toplu olarak yer sorgulamaya yarayan arac
+Doğu ekspresin de yataklı vagon için toplu gün sorgulamaya yarayan araç.
+Maksimum olarak 30 gün sorgulayabilirsiniz. 
 
 [![onizleme](https://asciinema.org/a/COiPj6eaVVMMVD7Qj9kJsGnfp.png)](https://asciinema.org/a/COiPj6eaVVMMVD7Qj9kJsGnfp)
 
