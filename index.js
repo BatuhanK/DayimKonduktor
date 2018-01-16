@@ -4,10 +4,10 @@ const Table = require('cli-table');
 const PromisePool = require('es6-promise-pool');
 
 const { getRemainingSeats } = require('./lib/api');
-const DAYS = Number(process.env.DAYS) || 30;
+const DAYS = Number(process.env.DAYS) || 31;
 
 const generatePromises = function* () {
-  for (let i = 0; i <= DAYS; i++) {
+  for (let i = 0; i < DAYS; i++) {
     const date = moment().add(i, 'days');
     yield Promise.all([
       getRemainingSeats('Ankara Gar', 'Kars', date),
@@ -18,7 +18,7 @@ const generatePromises = function* () {
 
 const bar = new ProgressBar({
   schema: 'Günler sorgulanıyor(:current/:total) :bar (kalan süre: :eta sn)',
-  total: DAYS+1
+  total: DAYS
 });
 const table = new Table({ head: ['', 'Ankara => Kars', 'Kars => Ankara']});
 
