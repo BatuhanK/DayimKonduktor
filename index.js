@@ -27,9 +27,6 @@ const pool = new PromisePool(promiseIterator, 5);
 
 pool.addEventListener('fulfilled', event => {
   bar.tick();
-  if (bar.completed) {
-    bar.clear();
-  }
   const result = event.data.result;
   const ankaraKars = result.find(r => r.to == 'Kars');
   const karsAnkara = result.find(r => r.from == 'Kars');
@@ -39,5 +36,6 @@ pool.addEventListener('fulfilled', event => {
 pool
   .start()
   .then(() => {
+    bar.clear();
     console.log(table.toString()); //eslint-disable-line
   });
