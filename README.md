@@ -19,4 +19,4 @@ DAYS=30 npm start
 
 > not: dilerseniz [su adresten](http://karsrail.batuhan.org) 1-2 dakikada bir guncellenen halini takip edebilirsiniz
 
-> unutmayin ki herkesin dayisinin konduktor oldugu bir dunyada kimse bilet bulamaz...
+> unutmayin ki herkesin dayisinin konduktor oldugu bir dunyada kimse bilet bulamaz... (batuhan katirci 2018 askdjaslkd)
