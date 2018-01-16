@@ -12,3 +12,10 @@ npm install
 DAYS=30 npm start
 
 ```
+
+***
+
+
+> not: sadece bu kodu calistirabilecek insanlarin dayisi konduktor olabilir, lutfen web sitesi - mobil uygulama vs. haline getirmeyin.
+
+> unutmayin ki herkesin dayisinin konduktor oldugu bir dunyada kimse bilet bulamaz...
