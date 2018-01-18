@@ -10,8 +10,8 @@ const generatePromises = function* () {
   for (let i = 0; i < DAYS; i++) {
     const date = moment().add(i, 'days');
     yield Promise.all([
-      getRemainingSeats('Ankara Gar', 'Kars', date),
-      getRemainingSeats('Kars', 'Ankara Gar', date)
+      getRemainingSeats('Ankara Gar', 'Kars', 234516259, 234517635, date),
+      getRemainingSeats('Kars', 'Ankara Gar', 234517635, 234516259, date)
     ]);
   }
 };
