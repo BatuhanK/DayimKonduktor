@@ -1,10 +1,10 @@
 const moment = require('moment');
 const ProgressBar = require('ascii-progress');
-const Table = require('cli-table');
-const PromisePool = require('es6-promise-pool');
+const Table = require('cli-table')
+const PromisePool = require('es6-promise-pool')
 
 const { getRemainingSeats } = require('./lib/api');
-const DAYS = Number(process.env.DAYS) || 32
+const DAYS = Number(process.env.DAYS) || 32;
 
 const generatePromises = function* () {
   for (let i = 0; i < DAYS; i++) {
