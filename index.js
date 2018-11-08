@@ -6,9 +6,6 @@ const PromisePool = require('es6-promise-pool');
 const { getRemainingSeats } = require('./lib/api');
 const DAYS = Number(process.env.DAYS) || 32;
 
-const x = 5;
-x = 6;
-
 const generatePromises = function* () {
   for (let i = 0; i < DAYS; i++) {
     const date = moment().add(i, 'days');
