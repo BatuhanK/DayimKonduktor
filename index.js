@@ -4,7 +4,7 @@ const Table = require('cli-table');
 const PromisePool = require('es6-promise-pool');
 
 const { getRemainingSeats } = require('./lib/api');
-const DAYS = Number(process.env.DAYS) || 33;
+const DAYS = Number(process.env.DAYS) || 31;
 
 const generatePromises = function* () {
   for (let i = 0; i < DAYS; i++) {
